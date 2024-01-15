@@ -29,7 +29,7 @@ public class Grade {
 
     public static void main(String[] args) {
         Grade grade = new Grade();
-
+        System.out.println("안녕");
         System.out.println("값확인 " + grade.eng + grade.math + grade.kor);
         grade.initGrade(90, 70, 60);
 
